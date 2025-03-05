@@ -4,6 +4,8 @@
 
 Download the binary and move it to the correct directory.
 ```sh
+git clone https://github.com/mbookham7/crdb-quick-video-k8s-install.git
+cd crdb-quick-video-k8s-install
 curl https://binaries.cockroachdb.com/cockroach-v25.1.0.darwin-11.0-arm64.tgz | tar -xz
 sudo mv cockroach-v25.1.0.darwin-11.0-arm64/cockroach /usr/local/bin/
 cockroach version
@@ -12,6 +14,7 @@ cockroach version
 
 Create the folder structure
 ```sh
+git clone https://github.com/mbookham7/crdb-quick-video-k8s-install.git
 mkdir certs
 mkdir my-safe-directory
 ```
